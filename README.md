@@ -10,3 +10,5 @@ face_encoder = tf.keras.Model(face_encoder_input, x)
 image = np.array(Image.open("..."))[np.newaxis,...].astype(np.float32) / 255.
 coeff = face_encoder(image)
 ```
+
+`face_encoder` is converted from https://github.com/face3d0725/Deep3DFaceReconstruction-Pytorch
